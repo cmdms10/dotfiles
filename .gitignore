@@ -1,0 +1,86 @@
+# all ignore #
+/*
+/.**
+
+## config
+!/.config/
+!/.config/**
+
+### Secrets
+/.config/TabNine/registration_key
+/.config/espanso/user/**
+/.config/systemd/**/*kite*
+/.config/gh/**
+!/.config/gh/config.yml
+!/.config/pet/snippet.toml
+
+### neovim
+/.config/nvim/plugin/**
+!/.nvim/
+!/.nvim/**
+
+### zsh
+!/.zshrc
+!/.zshenv
+/.zfunc/**
+/.config/zsh/*.local/**
+
+### VSCode
+/.config/Code/**
+!/.config/Code/User/*.json
+
+### i3
+/.config/i3/config.d/local/*
+
+### sway
+/.config/sway/config.d/local/*
+
+## X
+!/.Xmodmap
+!/.xinitrc
+!/.xprofile
+!/.xsessionrc
+
+## Wayland
+!/.pam_environment
+
+### fcitx
+/.config/fcitx/**
+!/.config/fcitx/config
+!/.config/fcitx/conf/
+!/.config/fcitx/conf/**
+/.config/fcitx5/**
+!/.config/fcitx5/config
+!/.config/fcitx5/conf/
+!/.config/fcitx5/conf/**
+/.config/fcitx5/conf/cached_layouts
+
+# IME
+!/.mozc/
+!/.mozc/**
+/.mozc/*.log
+/.mozc/*.txt
+/.mozc/*.db
+/.mozc/.*
+
+## ci
+!/.circleci/
+!/.circleci/**
+!/.github/
+!/.github/**
+
+## etc
+!/.bin/
+!/.bin/**
+
+# not ignore #
+!/docs/
+!/docs/**
+!/_config.yml
+!/README.md
+!/LICENSE
+!/install.sh
+!/install_scripts/
+!/install_scripts/**
+!.gitignore
+!.gitkeep
